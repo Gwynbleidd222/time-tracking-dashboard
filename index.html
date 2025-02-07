@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main>
+    <div class="dashboard-boxes">
+      <div class="dashboard-box-1">
+        <div class="dashboard-name">
+          <img class="dashboard-img" src="./img/image-jeremy.png" alt="Jeremy">
+          <div class="dashboard-text">
+            <span>Report for</span>
+            <p>Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="dashboard-data dashboard-data-active">
+          <button id="btn1">Daily</button>
+          <button id="btn2">Weekly</button>
+          <button id="btn3">Monthly</button>
+        </div>
+      </div>
+      <div class="dashboard-boxes-2">
+        <div class="dashboard-box-2">
+          <div class="dashboard-content">
+            <p class="title" id="title">Work</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box">
+            <img src="./img/icon-work.svg" alt="orange suitcase">
+          </div>
+        </div>
+        <div class="dashboard-box dashboard-box-3">
+          <div class="dashboard-content">
+            <p class="title" id="title">Play</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box img-box-3">
+            <img src="./img/icon-play.svg" alt="orange suitcase">
+          </div>
+        </div>
+        <div class="dashboard-box dashboard-box-4">
+          <div class="dashboard-content">
+            <p class="title" id="title">Study</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box img-box-4">
+            <img src="./img/icon-study.svg" alt="orange suitcase">
+          </div>
+        </div>
+        <div class="dashboard-box dashboard-box-5">
+          <div class="dashboard-content">
+            <p class="title" id="title">Exersices</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box img-box-5">
+            <img src="./img/icon-exercise.svg" alt="orange suitcase">
+          </div>
+        </div>
+        <div class="dashboard-box dashboard-box-6">
+          <div class="dashboard-content">
+            <p class="title" id="title">Social</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box img-box-6">
+            <img src="./img/icon-social.svg" alt="orange suitcase">
+          </div>
+        </div>
+        <div class="dashboard-box dashboard-box-7">
+          <div class="dashboard-content">
+            <p class="title" id="title">Self Care</p>
+            <p class="time" id="current"></p>
+            <img class="img-ellipsis" src="./img/icon-ellipsis.svg" alt="icon ellipsis">
+            <p id="prev" class="hrs"></p>
+          </div>
+  
+          <div class="dashboard-img-box img-box-7">
+            <img src="./img/icon-self-care.svg" alt="orange suitcase">
+          </div>
+        
+      </div>
+      
+
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
